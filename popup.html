@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>!NOW</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <style type="text/css">
+
+        .main_container{
+            padding:5px 20px;
+            width:420px;
+        }
+
+        .header{
+            width:100%;
+            display:inline-block;
+            text-align:center;
+        }
+        .logo{
+            padding-top: 10px;
+            margin:0 auto;
+            text-align: center;
+            font-size: 31px;
+            display: inline-block;
+            background: url(now.png) left bottom no-repeat;
+            background-size: 200px;
+            width: 200px;
+            height: 100px;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-dark bg-dark">
+    </nav>
+<center><h2>Bienvenido Alejandro Ruíz</h2></center>
+    <div class="header">
+        <a class="logo" href="now.html" target="_blank"></a>
+    </div>
+    <div id="OP" class="main_container p1">
+        <div class="row">
+            <div class="col-12">
+                <center><p>Para el desarrollo de este curso elegiste las 3 modalidades</p></center>
+            </div>
+        </div>
+
+        <div class="row"> 
+            <div class="col-4"> 
+                <center>Comenzar</center>
+                <button id="EA" class="btn btn-dark">Evaluación Aleatoria</button>     
+            </div>
+            <div class="col-4"> 
+                <center>Comenzar</center>
+                <button id="ED" class="btn btn-dark">Evaluación Directa</button>     
+            </div>  
+            <div class="col-4"> 
+                <center>Comenzar</center>
+                <button id="EG" class="btn btn-dark">Evaluación General</button>     
+            </div>    
+        </div>
+    </div>
+
+
+    <div class="main_container modExt1">
+        <br>
+        <br>
+        <div class="row">
+            <div class="col-6">
+                <button id="Back" class="btn btn-dark back">Regresar</button> 
+            </div>
+            <div class="col-6">
+                <button id="done1" class="btn btn-dark Done1">Enviar Preguntas Aleatorias</button> 
+            </div>
+        </div> 
+        <br>
+        <br>
+        <div class="row show1">
+            <table class="table">
+              <thead class="thead-dark">
+                <tr>
+                  <th scope="col">#</th>
+                  <th scope="col">Alumno</th>
+                  <th scope="col">Numero de preguntas</th>
+                  <th scope="col">Aciertos</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">1</th>
+                  <td>Alberto Munguía</td>
+                  <td>3</td>
+                  <td>2</td>
+                </tr>
+                <tr>
+                  <th scope="row">2</th>
+                  <td>-</td>
+                  <td>-</td>
+                  <td>-</td>
+                </tr>
+              </tbody>
+            </table>
+        </div>
+        <div class="row show1">
+            <div class="col-6">
+            <button id="" class="btn btn-dark">Finalizar Evaluación</button> 
+            </div>
+            <div class="col-6">
+            <button id="" class="btn btn-dark">Descargar Resultados</button> 
+            </div>
+        </div>
+    </div>
+
+
+<!-- Segunda Parte -->
+
+    <div class="main_container modExt2">
+        <br>
+        <br>
+        <div class="row">
+            <div class="col-6">
+                <button id="Back2" class="btn btn-dark back2">Regresar</button> 
+            </div>
+        </div> 
+        <br>
+        <br>
+        <div class="row show2">
+            <table class="table">
+              <thead class="thead-dark">
+                <tr>
+                  <th scope="col">#</th>
+                  <th scope="col">Alumno</th>
+                  <th scope="col">Seleccionar Pregunta</th>
+                  <th scope="col">Presiona para Enviar</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">1</th>
+                  <td>Alberto Munguía</td>
+                  <td><select class="form-control"><option value="1">Seleccionar</option><option value="1">Pregunta 1</option><option value="2">Pregunta 2</option><option>Pregunta 3</option></select></td>
+                  <td><button id="" class="btn btn-dark">Enviar</button> </td>
+                </tr>
+                <tr>
+                  <th scope="row">2</th>
+                  <td>Jose Ayala</td>
+                  <td><select class="form-control"><option value="1">Seleccionar</option><option value="1">Pregunta 1</option><option value="2">Pregunta 2</option><option>Pregunta 3</option></select></td>
+                  <td><button id="" class="btn btn-dark">Enviar</button> </td>
+                </tr>
+              </tbody>
+            </table>
+            <button id="Done2" class="btn btn-dark done2">Finalizar Evaluación</button> 
+        </div>
+        <div class="row show21">
+            <table class="table">
+              <thead class="thead-dark">
+                <tr>
+                  <th scope="col">#</th>
+                  <th scope="col">Alumno</th>
+                  <th scope="col">Numero de preguntas</th>
+                  <th scope="col">Aciertos</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">1</th>
+                  <td>Alberto Munguía</td>
+                  <td>3</td>
+                  <td>2</td>
+                </tr>
+                <tr>
+                  <th scope="row">2</th>
+                  <td>Jose Ayala</td>
+                  <td>1</td>
+                  <td>0</td>
+                </tr>
+              </tbody>
+            </table>
+            <button id="" class="btn btn-dark">Descargar Resultados</button> 
+        </div>
+    </div>
+
+    <!-- Tercera Parte -->
+
+    <div class="main_container modExt3">
+        <br>
+        <br>
+        <div class="row">
+            <div class="col-6">
+                <button id="Back3" class="btn btn-dark back3">Regresar</button> 
+            </div>
+            <div class="col-6">
+                <button id="done3" class="btn btn-dark Done3">Enviar Examenes</button> 
+            </div>
+        </div> 
+        <br>
+        <br>
+        <div class="row show3">
+            <table class="table">
+              <thead class="thead-dark">
+                <tr>
+                  <th scope="col">#</th>
+                  <th scope="col">Alumno</th>
+                  <th scope="col">Numero de preguntas respondidas</th>
+                  <th scope="col">Aciertos</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">1</th>
+                  <td>Alberto Munguía</td>
+                  <td>En proceso</td>
+                  <td>En proceso</td>
+                </tr>
+                <tr>
+                  <th scope="row">2</th>
+                  <td>Jose Ayala</td>
+                  <td>7</td>
+                  <td>6</td>
+                </tr>
+              </tbody>
+            </table>
+        </div>
+        <div class="row show3">
+            <div class="col-6">
+            <button id="" class="btn btn-dark">Finalizar Evaluación</button> 
+            </div>
+            <div class="col-6">
+            <button id="" class="btn btn-dark">Descargar Resultados</button> 
+            </div>
+        </div>
+    </div>
+
+
+    
+
+        
+    
+<nav class="navbar navbar-dark bg-dark">
+    </nav> 
+    <script src="modExt.js"></script>
+</body>
+</body>
+</html>
